@@ -8,12 +8,29 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var timerLabel: UILabel!
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var resetButton: UIButton!
+    
+    var counter = 0.0
+    var timer = Timer()
+    var isPlaying = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
+    @IBAction func startTimer(_ sender: Any) {
+    }
+    @IBAction func pauseTimer(_ sender: Any) {
+    }
+    @IBAction func resetTimer(_ sender: Any) {
+    }
+    
+    
 
+    
 
+    
 }
 
